@@ -5,3 +5,5 @@ puts "Exercise 2"
 puts "----------"
 
 # Your code goes here ...
+store = Store.find_by(id: 1)
+store
