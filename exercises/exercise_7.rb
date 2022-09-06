@@ -10,3 +10,6 @@ puts "Exercise 7"
 puts "----------"
 
 # Your code goes here ...
+input = gets.chomp
+@store7 = Store.create(name: "#{input}")
+puts @store7.errors.inspect
